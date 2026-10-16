@@ -18,9 +18,7 @@ Portfólio acadêmico e técnico versionado de João Gabriel Assunção de Labio
 - [Certificações técnicas](#certificações-técnicas)
 - [Padrões adotados](#padrões-adotados)
 - [Versionamento](#versionamento)
-- [Declaração de integridade acadêmica](#declaração-de-integridade-acadêmica)
 - [Como executar o site localmente](#como-executar-o-site-localmente)
-- [Como contribuir](#como-contribuir)
 - [Contato](#contato)
 
 ---
@@ -34,7 +32,7 @@ códigos-fonte e relatórios técnicos produzidos ao longo do curso.
 Ao transformar a produção acadêmica em artefatos rastreáveis e versionados, o repositório funciona como uma
 vitrine viva de competências aplicadas para fins profissionais e acadêmicos.
 
-Projeto desenvolvido para a Entrega Intermediária da disciplina **Bootcamp I** - *Criação de Repositório com Versionamento*.
+Projeto desenvolvido para a Entrega Intermediária da disciplina **Bootcamp I** *Criação de Repositório com Versionamento*.
 
 ## Sobre o autor
 
@@ -125,10 +123,7 @@ git push origin main --tags
 
 ## Declaração de integridade acadêmica
 
-Em estrita consonância com os **Artigos 6º e 7º do Código de Ética do UniCEUB**, declara-se que:
-- O planejamento estrutural, arquitetura hierárquica de diretórios, matriz curricular, biografia, dados acadêmicos e curadoria de certificações foram concebidos e definidos pelo estudante (autor).
-- Ferramentas computacionais e recursos de Inteligência Artificial foram utilizados como instrumento de apoio técnico no processo de automação de layouts de documentação e suporte sintático à codificação das páginas estáticas.
-- A autoria intelectual, a validação de todo o conteúdo e a responsabilidade acadêmica permanecem integralmente atribuídas ao estudante.
+Gostaria de declarar que o planejamento estrutural, arquitetura hierárquica de diretórios, matriz curricular, biografia, dados acadêmicos e curadoria de certificações foram concebidos e definidos por mim, e que ferramentas computacionais e recursos de inteligência artificial foram utilizados como instrumento de apoio técnico no processo de automação de layouts de documentação e suporte sintático à codificação das páginas estáticas. A autoria intelectual, a validação de todo o conteúdo e a responsabilidade acadêmica permanecem atribuídas a mim.
 
 ## Como executar o site localmente
 
