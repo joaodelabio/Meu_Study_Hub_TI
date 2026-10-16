@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slides · Study Hub · João Gabriel de Labio</title>
-  <meta name="description" content="Apresentação em slides do Study Hub de João Gabriel de Labio — Bootcamp I, UniCEUB.">
+  <title>Slides - Study Hub - João Gabriel de Labio</title>
+  <meta name="description" content="Apresentação em slides do Study Hub de João Gabriel de Labio - Bootcamp I, UniCEUB.">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,6 @@
     .progress { position: fixed; top: 0; left: 0; height: 3px; background: var(--grad); transition: width .4s; z-index: 10; }
     .home { position: fixed; top: 20px; left: 30px; z-index: 10; font-family: var(--font-display); font-weight: 700; color: var(--text); }
     .home b { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
-    .big-num { font-family: var(--font-display); font-size: 3rem; font-weight: 800; }
     @media (max-width: 900px) { body { overflow: auto; } }
   </style>
 </head>
@@ -50,41 +49,37 @@
   <a href="index.html" class="home" id="slides-home">Study<b>Hub</b>_</a>
 
   <main class="deck" id="deck">
-    <!-- 1 -->
     <section class="slide active">
-      <span class="badge"><span class="dot"></span> Bootcamp I · Entrega Intermediária</span>
+      <span class="badge"><span class="dot"></span> Bootcamp I | Entrega Intermediária</span>
       <h1>Meu <span class="gradient-text">Study Hub</span> TI</h1>
       <p>Criação de Repositório com Versionamento</p>
-      <p style="margin-top:28px"><strong style="color:var(--text)">João Gabriel Assunção de Labio</strong> · RA 22308940<br>
-        Ciência da Computação · 8º semestre · UniCEUB</p>
+      <p style="margin-top:28px"><strong style="color:var(--text)">João Gabriel Assunção de Labio</strong> | RA 22308940<br>
+        Ciência da Computação | 8º semestre | UniCEUB</p>
     </section>
 
-    <!-- 2 -->
     <section class="slide">
-      <span class="section-tag">01 · Quem sou</span>
+      <span class="section-tag">01 | Quem sou</span>
       <h2>Biografia acadêmica</h2>
       <ul>
         <li>Foco em <strong style="color:var(--text)">software full-stack, redes e segurança</strong> defensiva e ofensiva.</li>
         <li>Estágio no <strong style="color:var(--text)">Tribunal de Contas do DF</strong>: controle patrimonial, conciliação de dados e conformidade.</li>
         <li>Rotina de <em>home lab</em> e <em>bug bounty</em> (OWASP Top 10, MITRE ATT&amp;CK).</li>
-        <li>Governança: ISO/IEC 27001, ITIL 4, COBIT 2019.</li>
+        <li>Governança e conformidade: ISO/IEC 27001, ITIL 4, COBIT 2019 e LGPD.</li>
       </ul>
     </section>
 
-    <!-- 3 -->
     <section class="slide">
-      <span class="section-tag">02 · Propósito</span>
+      <span class="section-tag">02 | Propósito</span>
       <h2>Por que um Study Hub?</h2>
       <div class="grid-3">
-        <div class="glass card"><div class="icon">🗃️</div><h3>Centralizar</h3><p>Resumos, labs, códigos e relatórios em um só lugar.</p></div>
-        <div class="glass card"><div class="icon">🔖</div><h3>Versionar</h3><p>Artefatos rastreáveis com Git, commits e tags.</p></div>
-        <div class="glass card"><div class="icon">💼</div><h3>Mostrar</h3><p>Vitrine viva de competências para recrutadores.</p></div>
+        <div class="glass card"><span class="tag-indicator">[ORGANIZAR]</span><h3>Centralizar</h3><p>Resumos analíticos, labs, códigos e relatórios técnicos em um repositório único.</p></div>
+        <div class="glass card"><span class="tag-indicator">[RASTREAR]</span><h3>Versionar</h3><p>Histórico rastreável com Git, conventional commits, tags e versionamento semântico.</p></div>
+        <div class="glass card"><span class="tag-indicator">[DEMONSTRAR]</span><h3>Apresentar</h3><p>Vitrine viva de competências aplicadas integrada com GitHub Pages e LinkedIn.</p></div>
       </div>
     </section>
 
-    <!-- 4 -->
     <section class="slide">
-      <span class="section-tag">03 · Arquitetura</span>
+      <span class="section-tag">03 | Arquitetura</span>
       <h2>Estrutura do repositório</h2>
       <div class="grid-2" style="align-items:start">
         <div class="glass card"><pre>Meu_Study_Hub_TI/
@@ -96,74 +91,95 @@
 │   ├── Teste_e_Qualidade_de_Software/
 │   └── Sistemas_em_Tempo_Real_e_Embarcados/
 ├── 03_Projetos_e_Certificados/
-├── assets/  ·  index.html  ·  slides.html
-└── README.md  ·  CHANGELOG.md</pre></div>
+│   ├── Certificacoes/
+│   └── Projetos_Pessoais/
+├── assets/ | index.html | slides.html
+└── README.md | CHANGELOG.md</pre></div>
         <ul>
-          <li>Prefixos numéricos + <code>snake_case</code></li>
-          <li>Um <code>README.md</code> por pasta</li>
-          <li>Entregáveis: <code>AAAA-MM-DD_titulo.ext</code></li>
-          <li>Separação entre entregas e resumos</li>
+          <li>Prefixos numéricos sequenciais e <code>snake_case</code>;</li>
+          <li>Arquivo <code>README.md</code> individual por diretório;</li>
+          <li>Padronização de entregas: <code>AAAA-MM-DD_titulo.ext</code>;</li>
+          <li>Separação estrita entre entregas e anotações.</li>
         </ul>
       </div>
     </section>
 
-    <!-- 5 -->
     <section class="slide">
-      <span class="section-tag">04 · Matriz</span>
-      <h2>Disciplinas do semestre</h2>
-      <div class="grid-3">
-        <div class="glass card"><h3>🚀 Bootcamp I</h3><p>Arquitetura do Study Hub e entregas.</p></div>
-        <div class="glass card"><h3>🧩 Projeto Integrador IV</h3><p>Relatórios, atas e documentação arquitetural.</p></div>
-        <div class="glass card"><h3>🛡️ Segurança Cibernética</h3><p>Labs OWASP / MITRE e resumos.</p></div>
-        <div class="glass card"><h3>✅ Teste e Qualidade</h3><p>Casos de teste e planos de QA.</p></div>
-        <div class="glass card"><h3>⏱️ Tempo Real e Embarcados</h3><p>Escalonamento e simulações de firmware.</p></div>
+      <span class="section-tag">04 | Matriz e Certificados</span>
+      <h2>Disciplinas e Credenciais Técnicas</h2>
+      <div class="grid-2">
+        <div class="glass card">
+          <span class="tag-indicator">[DISCIPLINAS ATIVAS]</span>
+          <ul>
+            <li>Bootcamp I</li>
+            <li>Projeto Integrador IV</li>
+            <li>Segurança Cibernética</li>
+            <li>Teste e Qualidade de Software</li>
+            <li>Sistemas em Tempo Real e Embarcados</li>
+          </ul>
+        </div>
+        <div class="glass card">
+          <span class="tag-indicator">[CERTIFICAÇÕES OBTIDAS]</span>
+          <ul>
+            <li>Cisco: Junior Cybersecurity Analyst</li>
+            <li>Cisco Networking Academy: Endpoint Security</li>
+            <li>SkillFront: ISO/IEC 27001 Security Associate</li>
+            <li>Cisco: Networking Devices &amp; Initial Config</li>
+            <li>Cisco: Networking Basics</li>
+            <li>Cisco: Cyber Threat Management</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <!-- 6 -->
     <section class="slide">
-      <span class="section-tag">05 · Versionamento</span>
-      <h2>Git na prática</h2>
+      <span class="section-tag">05 | Versionamento</span>
+      <h2>Versionamento com Git</h2>
       <div class="grid-2" style="align-items:start">
         <div class="glass card"><pre><span style="color:var(--accent)">$</span> git init -b main
 <span style="color:var(--accent)">$</span> git add .
 <span style="color:var(--accent)">$</span> git commit -m "feat: estrutura inicial"
-<span style="color:var(--accent)">$</span> git tag -a v1.0 -m "Versão 1.0"
-<span style="color:var(--accent)">$</span> git commit -m "feat: slides e histórico"
-<span style="color:var(--accent)">$</span> git tag -a v1.1 -m "Versão 1.1"
+<span style="color:var(--accent)">$</span> git tag -a v1.0 -m "Versao 1.0"
+<span style="color:var(--accent)">$</span> git commit -m "feat: slides e historico"
+<span style="color:var(--accent)">$</span> git tag -a v1.1 -m "Versao 1.1"
 <span style="color:var(--accent)">$</span> git push origin main --tags</pre></div>
         <ul>
-          <li><strong style="color:var(--text)">Conventional Commits</strong> (<code>feat</code>, <code>docs</code>, <code>fix</code>)</li>
-          <li><strong style="color:var(--text)">SemVer</strong> com tags anotadas</li>
-          <li><code>CHANGELOG.md</code> documentando cada versão</li>
+          <li><strong>Conventional Commits</strong> (<code>feat:</code>, <code>docs:</code>, <code>fix:</code>);</li>
+          <li><strong>SemVer</strong> com tags anotadas no repositório remoto;</li>
+          <li>Rastreabilidade de alterações via <code>CHANGELOG.md</code>.</li>
         </ul>
       </div>
     </section>
 
-    <!-- 7 -->
     <section class="slide">
-      <span class="section-tag">06 · Publicação e integração</span>
-      <h2>GitHub Pages + LinkedIn</h2>
+      <span class="section-tag">06 | Publicação e Integração</span>
+      <h2>GitHub Pages e LinkedIn</h2>
       <div class="grid-2">
-        <div class="glass card"><div class="icon">🌐</div><h3>GitHub Pages</h3>
-          <p>Site publicado a partir da branch <code>main</code>:<br><code>joaodelabio.github.io/Meu_Study_Hub_TI</code></p></div>
-        <div class="glass card"><div class="icon">💼</div><h3>LinkedIn</h3>
-          <p>Repositório adicionado em <em>Projetos</em> e na seção <em>Em destaque</em> do perfil <code>/in/joaodelabio</code>.</p></div>
+        <div class="glass card">
+          <span class="tag-indicator">[WEB HOSTING]</span>
+          <h3>GitHub Pages</h3>
+          <p>Publicação estática direta a partir da branch <code>main</code>:<br><code>joaodelabio.github.io/Meu_Study_Hub_TI</code></p>
+        </div>
+        <div class="glass card">
+          <span class="tag-indicator">[REDE PROFISSIONAL]</span>
+          <h3>LinkedIn</h3>
+          <p>Integração na seção <em>Projetos</em> e <em>Em destaque</em> do perfil <code>linkedin.com/in/joaodelabio</code>.</p>
+        </div>
       </div>
     </section>
 
-    <!-- 8 -->
     <section class="slide">
-      <span class="section-tag">07 · Encerramento</span>
-      <h1>Obrigado! <span class="gradient-text">🚀</span></h1>
-      <p>github.com/joaodelabio/Meu_Study_Hub_TI<br>linkedin.com/in/joaodelabio</p>
+      <span class="section-tag">07 | Conclusão</span>
+      <h1>Obrigado pela atenção.</h1>
+      <p style="margin-top:20px">Repositório: github.com/joaodelabio/Meu_Study_Hub_TI<br>Perfil: linkedin.com/in/joaodelabio</p>
+      <p style="margin-top:30px; font-size:.9rem; color:var(--muted)">Em conformidade com as diretrizes de Integridade Acadêmica do UniCEUB (Art. 6º e 7º).</p>
     </section>
   </main>
 
   <div class="controls">
     <span id="counter">1 / 8</span>
-    <button id="btn-prev" aria-label="Slide anterior">←</button>
-    <button id="btn-next" aria-label="Próximo slide">→</button>
+    <button id="btn-prev" aria-label="Slide anterior">&larr;</button>
+    <button id="btn-next" aria-label="Próximo slide">&rarr;</button>
   </div>
 
   <script>

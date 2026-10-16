@@ -1,8 +1,3 @@
-/* ==========================================================
-   Study Hub — Design System
-   Autor: João Gabriel Assunção de Labio
-   ========================================================== */
-
 :root {
   --bg: hsl(230, 35%, 7%);
   --bg-2: hsl(230, 30%, 10%);
@@ -40,7 +35,6 @@ body {
 
 a { color: var(--primary); text-decoration: none; }
 
-/* ---------- Background animado ---------- */
 .bg-orbs { position: fixed; inset: 0; z-index: -1; overflow: hidden; }
 .bg-orbs span {
   position: absolute; border-radius: 50%; filter: blur(90px); opacity: .35;
@@ -59,7 +53,6 @@ a { color: var(--primary); text-decoration: none; }
 }
 @keyframes float { to { transform: translate(80px, 60px) scale(1.15); } }
 
-/* ---------- Layout ---------- */
 .container { width: min(1120px, 92%); margin-inline: auto; }
 section { padding: 110px 0 40px; }
 
@@ -73,7 +66,6 @@ h3 { font-size: 1.2rem; margin-bottom: 8px; }
 .lead { color: var(--muted); max-width: 760px; font-size: 1.05rem; }
 .gradient-text { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 
-/* ---------- Navbar ---------- */
 .nav {
   position: fixed; top: 0; inset-inline: 0; z-index: 50;
   backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
@@ -93,7 +85,6 @@ h3 { font-size: 1.2rem; margin-bottom: 8px; }
 .nav ul a:hover::after, .nav ul a.active::after { width: 100%; }
 .menu-btn { display: none; background: none; border: 0; color: var(--text); font-size: 1.6rem; cursor: pointer; }
 
-/* ---------- Hero ---------- */
 .hero { min-height: 100vh; display: flex; align-items: center; padding-top: 90px; }
 .hero-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 50px; align-items: center; }
 .badge {
@@ -105,7 +96,7 @@ h3 { font-size: 1.2rem; margin-bottom: 8px; }
 .hero h1 { font-size: clamp(2.5rem, 6vw, 4.3rem); margin: 22px 0 18px; }
 .hero p { color: var(--muted); font-size: 1.1rem; max-width: 580px; }
 .typed { font-family: var(--font-mono); color: var(--primary); }
-.typed::after { content: '▋'; animation: pulse 1s infinite; margin-left: 2px; }
+.typed::after { content: '|'; animation: pulse 1s infinite; margin-left: 2px; }
 .cta { display: flex; gap: 14px; margin-top: 32px; flex-wrap: wrap; }
 .btn {
   display: inline-flex; align-items: center; gap: 10px; padding: 13px 24px; border-radius: 12px;
@@ -131,7 +122,6 @@ h3 { font-size: 1.2rem; margin-bottom: 8px; }
 .terminal .k { color: var(--secondary); }
 .terminal .s { color: var(--primary); }
 
-/* ---------- Cards ---------- */
 .glass {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
@@ -148,13 +138,10 @@ h3 { font-size: 1.2rem; margin-bottom: 8px; }
 .card:hover { transform: translateY(-6px); }
 .card:hover::before { opacity: 1; }
 .card p { color: var(--muted); font-size: .95rem; }
-.icon {
-  width: 48px; height: 48px; border-radius: 12px; display: grid; place-items: center;
-  background: hsla(190, 95%, 55%, .12); color: var(--primary); font-size: 1.4rem; margin-bottom: 18px;
+.tag-indicator {
+  display: inline-block; font-family: var(--font-mono); font-size: .75rem; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--primary); margin-bottom: 12px; font-weight: 600;
 }
-.card:nth-child(2) .icon { background: hsla(265, 90%, 68%, .14); color: var(--secondary); }
-.card:nth-child(3) .icon { background: hsla(150, 75%, 55%, .14); color: var(--accent); }
-.card:nth-child(4) .icon { background: hsla(38, 95%, 60%, .14); color: var(--warn); }
 
 .about-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 28px; margin-top: 30px; }
 .about-text { padding: 32px; color: var(--muted); }
@@ -167,7 +154,6 @@ h3 { font-size: 1.2rem; margin-bottom: 8px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
 .chip { font-family: var(--font-mono); font-size: .75rem; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); background: hsla(230, 30%, 18%, .5); }
 
-/* ---------- Arquitetura ---------- */
 .arch-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 28px; margin-top: 36px; align-items: start; }
 .tree { padding: 26px; font-family: var(--font-mono); font-size: .82rem; color: var(--muted); overflow-x: auto; }
 .tree pre { line-height: 1.75; }
@@ -176,7 +162,6 @@ h3 { font-size: 1.2rem; margin-bottom: 8px; }
 .rules { display: flex; flex-direction: column; gap: 18px; }
 .rules .card { padding: 22px 24px; }
 
-/* ---------- Tabela ---------- */
 .table-wrap { margin-top: 36px; overflow-x: auto; padding: 8px; }
 table { width: 100%; border-collapse: collapse; min-width: 760px; }
 th, td { text-align: left; padding: 18px 20px; font-size: .92rem; vertical-align: top; }
@@ -188,7 +173,6 @@ tbody tr { transition: background .25s; }
 tbody tr:hover { background: hsla(190, 95%, 55%, .05); }
 .pill { display: inline-block; font-size: .72rem; font-family: var(--font-mono); padding: 4px 10px; border-radius: 999px; background: hsla(265, 90%, 68%, .15); color: var(--secondary); white-space: nowrap; }
 
-/* ---------- Timeline ---------- */
 .timeline { position: relative; margin-top: 40px; padding-left: 34px; }
 .timeline::before { content: ''; position: absolute; left: 9px; top: 6px; bottom: 6px; width: 2px; background: var(--grad); border-radius: 2px; }
 .tl-item { position: relative; margin-bottom: 26px; padding: 22px 26px; }
@@ -199,7 +183,16 @@ tbody tr:hover { background: hsla(190, 95%, 55%, .05); }
 .tl-item .ver { font-family: var(--font-mono); color: var(--primary); font-weight: 700; }
 .tl-item ul { margin: 10px 0 0 18px; color: var(--muted); font-size: .93rem; }
 
-/* ---------- Links / Contato ---------- */
+.cert-card { display: flex; flex-direction: column; justify-content: space-between; gap: 14px; }
+.cert-org { font-family: var(--font-mono); font-size: .8rem; color: var(--primary); }
+
+.ethics-box {
+  margin-top: 40px; padding: 28px; border-left: 4px solid var(--primary);
+  background: hsla(190, 95%, 55%, 0.05);
+}
+.ethics-box h3 { margin-bottom: 10px; }
+.ethics-box p { color: var(--muted); font-size: .95rem; }
+
 .links-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 36px; }
 .link-card { padding: 28px; display: flex; flex-direction: column; gap: 10px; color: var(--text); }
 .link-card svg { width: 30px; height: 30px; fill: var(--primary); }
@@ -207,11 +200,9 @@ tbody tr:hover { background: hsla(190, 95%, 55%, .05); }
 
 footer { padding: 60px 0 40px; text-align: center; color: var(--muted); font-size: .88rem; border-top: 1px solid var(--border); margin-top: 80px; }
 
-/* ---------- Reveal ---------- */
 .reveal { opacity: 0; transform: translateY(30px); transition: opacity .8s ease, transform .8s ease; }
 .reveal.visible { opacity: 1; transform: none; }
 
-/* ---------- Responsivo ---------- */
 @media (max-width: 900px) {
   .hero-grid, .about-grid, .arch-grid, .grid-2, .grid-3, .links-grid { grid-template-columns: 1fr; }
   .terminal { transform: none; }
