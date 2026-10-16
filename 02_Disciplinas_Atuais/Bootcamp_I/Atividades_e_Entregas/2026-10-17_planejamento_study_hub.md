@@ -6,7 +6,6 @@
 | **RA** | 22308940 |
 | **Disciplina** | Bootcamp I |
 | **Atividade** | Criação de Repositório com Versionamento |
-| **Prazo** | 17/10/2026 às 23h55 |
 
 ## 1. Planejamento do repositorio
 
@@ -42,11 +41,3 @@ Os commits seguem estritamente a especificação Conventional Commits (`feat:`, 
 
 - Repositório configurado como público no GitHub;
 - Projeto vinculado à seção "Projetos" e destacado no perfil profissional (https://www.linkedin.com/in/joaodelabio).
-
-## 6. Apresentacao e Roteiro de Video
-
-Roteiro planejado para apresentação em vídeo de até 5 minutos no YouTube, demonstrando a estrutura técnica, versionamento e navegação (disponível em `roteiro_video_apresentacao.md`).
-
-## 7. Declaracao de Integridade Academica (Art. 6º e 7º do Codigo de Etica UniCEUB)
-
-O aluno declara que toda a arquitetura de pastas, seleção de disciplinas, mapeamento de competências, currículo e dados foram definidos por sua própria autoria. Ferramentas computacionais e de inteligência artificial foram empregadas estritamente como suporte técnico instrumental para agilizar formatação sintática e estruturação de templates, sob supervisão e responsabilidade autoral plena do estudante.
