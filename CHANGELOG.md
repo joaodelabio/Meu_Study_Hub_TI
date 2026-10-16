@@ -4,6 +4,15 @@ Todas as mudanças relevantes deste repositório são documentadas aqui.
 O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e o projeto adota
 [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## [1.1] - 2026-10-16
+### Adicionado
+- Apresentação em slides (`slides.html`) navegável pelo teclado.
+- Seção "Histórico de versões" e link para os slides no site.
+- Planejamento da entrega e roteiro do vídeo em `02_Disciplinas_Atuais/Bootcamp_I/Atividades_e_Entregas/`.
+
+### Alterado
+- README principal e árvore de diretórios do site passam a listar `slides.html` e `CHANGELOG.md`.
+
 ## [1.0] - 2026-10-16
 ### Adicionado
 - Estrutura inicial de diretórios (`01_`, `02_`, `03_`) conforme o planejamento do Study Hub.

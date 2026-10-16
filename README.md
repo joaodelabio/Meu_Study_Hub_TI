@@ -8,7 +8,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-joaodelabio-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/joaodelabio)
 ![Versão](https://img.shields.io/github/v/tag/joaodelabio/Meu_Study_Hub_TI?style=for-the-badge&label=vers%C3%A3o&color=a66bff)
 
-🌐 **Site:** https://joaodelabio.github.io/Meu_Study_Hub_TI/
+🌐 **Site:** https://joaodelabio.github.io/Meu_Study_Hub_TI/ · 🎞️ **Slides:** https://joaodelabio.github.io/Meu_Study_Hub_TI/slides.html
 
 </div>
 
@@ -70,6 +70,7 @@ Meu_Study_Hub_TI/
 │   └── Projetos_Pessoais/
 ├── assets/                            # CSS, JS e imagens do GitHub Pages
 ├── index.html                         # Página principal (GitHub Pages)
+├── slides.html                        # Apresentação em slides
 ├── CHANGELOG.md                       # Histórico de versões
 └── README.md                          # Este arquivo
 ```
