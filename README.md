@@ -90,16 +90,16 @@ Meu_Study_Hub_TI/
 
 ## Certificações técnicas
 
-Lista de credenciais profissionais obtidas em segurança da informação, redes e governança:
+Lista de credenciais profissionais obtidas com autenticação digital formal:
 
-1. **Junior Cybersecurity Analyst Career Path** - Cisco
-2. **Endpoint Security** - Cisco Networking Academy
-3. **ISO/IEC 27001 Information Security Associate** - SkillFront
-4. **Networking Devices and Initial Configuration** - Cisco
-5. **Networking Basics** - Cisco
-6. **Cyber Threat Management** - Cisco
+1. [Junior Cybersecurity Analyst Career Path](https://www.credly.com/badges/2a23f8d8-a724-4d16-84aa-127452d91d58) - Cisco (Credly)
+2. [Endpoint Security](https://www.credly.com/badges/8ebada87-426a-4f66-b1ca-674176a88ca8) - Cisco Networking Academy (Credly)
+3. [ISO/IEC 27001 Information Security Associate](https://www.skillfront.com/Badges/47134966364076) - SkillFront
+4. [Networking Devices and Initial Configuration](https://www.credly.com/badges/fadc7e8c-0eb1-47b3-8aa8-27eec1027c54) - Cisco (Credly)
+5. [Networking Basics](https://www.credly.com/badges/0df0672b-ef63-4031-80f8-2b11eaa8a258) - Cisco (Credly)
+6. [Cyber Threat Management](https://www.credly.com/badges/b984d266-1af2-4c99-946c-1b99151f79cf) - Cisco (Credly)
 
-Detalhes e registros podem ser consultados na pasta [`03_Projetos_e_Certificados/Certificacoes/`](03_Projetos_e_Certificados/Certificacoes/).
+Detalhes e registros adicionais encontram-se na pasta [`03_Projetos_e_Certificados/Certificacoes/`](03_Projetos_e_Certificados/Certificacoes/).
 
 ## Padrões adotados
 

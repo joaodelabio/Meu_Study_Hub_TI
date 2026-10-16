@@ -26,11 +26,11 @@
 
 ## Certificacoes
 
-- **Junior Cybersecurity Analyst Career Path** - Cisco
-- **Endpoint Security** - Cisco Networking Academy
-- **ISO/IEC 27001 Information Security Associate** - SkillFront
-- **Networking Devices and Initial Configuration** - Cisco
-- **Networking Basics** - Cisco
-- **Cyber Threat Management** - Cisco
+- [Junior Cybersecurity Analyst Career Path](https://www.credly.com/badges/2a23f8d8-a724-4d16-84aa-127452d91d58) - Cisco (Credly)
+- [Endpoint Security](https://www.credly.com/badges/8ebada87-426a-4f66-b1ca-674176a88ca8) - Cisco Networking Academy (Credly)
+- [ISO/IEC 27001 Information Security Associate](https://www.skillfront.com/Badges/47134966364076) - SkillFront
+- [Networking Devices and Initial Configuration](https://www.credly.com/badges/fadc7e8c-0eb1-47b3-8aa8-27eec1027c54) - Cisco (Credly)
+- [Networking Basics](https://www.credly.com/badges/0df0672b-ef63-4031-80f8-2b11eaa8a258) - Cisco (Credly)
+- [Cyber Threat Management](https://www.credly.com/badges/b984d266-1af2-4c99-946c-1b99151f79cf) - Cisco (Credly)
 
 [Voltar](README.md)
