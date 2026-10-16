@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Hub · João Gabriel de Labio | Ciência da Computação UniCEUB</title>
+  <meta name="description" content="Study Hub de João Gabriel Assunção de Labio: portfólio acadêmico e profissional versionado com Git, reunindo disciplinas, laboratórios de segurança cibernética, projetos e certificações.">
+  <meta name="author" content="João Gabriel Assunção de Labio">
+  <meta property="og:title" content="Study Hub · João Gabriel de Labio">
+  <meta property="og:description" content="Portfólio acadêmico e profissional versionado — Segurança, Redes, Governança de TI e Engenharia de Software.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav">
+    <div class="container">
+      <a href="#inicio" class="logo" id="logo-link">Study<b>Hub</b>_</a>
+      <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">☰</button>
+      <nav>
+        <ul id="nav-menu">
+          <li><a href="#sobre" id="nav-sobre">Sobre</a></li>
+          <li><a href="#interesses" id="nav-interesses">Interesses</a></li>
+          <li><a href="#arquitetura" id="nav-arquitetura">Arquitetura</a></li>
+          <li><a href="#matriz" id="nav-matriz">Matriz</a></li>
+          <li><a href="#contato" id="nav-contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge"><span class="dot"></span> Ciência da Computação · 8º semestre · UniCEUB</span>
+          <h1>Olá, eu sou <span class="gradient-text">João Gabriel de Labio</span></h1>
+          <p>Este é o meu <strong>Study Hub</strong>: um portfólio vivo e versionado com Git, onde organizo
+            disciplinas, laboratórios e projetos voltados a <span class="typed" id="typed"></span></p>
+          <div class="cta">
+            <a class="btn btn-primary" id="btn-github" href="https://github.com/joaodelabio/Meu_Study_Hub_TI" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/></svg>
+              Ver repositório
+            </a>
+            <a class="btn" id="btn-linkedin" href="https://www.linkedin.com/in/joaodelabio" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zm1.8 13.1H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <div class="terminal" aria-label="Terminal ilustrativo com comandos git">
+          <div class="terminal-bar"><i></i><i></i><i></i></div>
+<pre><span class="c">$</span> git clone https://github.com/joaodelabio/Meu_Study_Hub_TI.git
+<span class="c">$</span> cd Meu_Study_Hub_TI
+<span class="c">$</span> git log --oneline --decorate
+<span class="k">(tag: v1.0)</span> feat: estrutura inicial do Study Hub
+<span class="c">$</span> tree -L 1
+<span class="s">01_Apresentacao_e_Perfil/</span>
+<span class="s">02_Disciplinas_Atuais/</span>
+<span class="s">03_Projetos_e_Certificados/</span>
+README.md  index.html
+<span class="c">$</span> echo "aprendizado contínuo 🚀"</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SOBRE ================= -->
+    <section id="sobre">
+      <div class="container">
+        <span class="section-tag reveal">01 · Biografia acadêmica</span>
+        <h2 class="reveal">Quem sou eu</h2>
+        <div class="about-grid">
+          <div class="glass about-text reveal">
+            <p>Estudante do 8º semestre de Ciência da Computação no UniCEUB, com trajetória voltada à convergência entre
+              <strong>desenvolvimento de software full-stack</strong>, <strong>infraestrutura de redes</strong> e
+              <strong>segurança defensiva e ofensiva</strong>.</p>
+            <p>Possuo vivência prática em órgãos públicos através de estágio no <strong>Tribunal de Contas do Distrito Federal</strong>,
+              atuando com controle patrimonial formal, conciliação de dados em larga escala e conformidade regulatória.</p>
+            <p>Mantenho rotina de estudos em <em>home lab</em> e <em>bug bounty</em> alinhada aos modelos OWASP Top 10 e MITRE ATT&amp;CK,
+              além de frameworks de governança como ISO/IEC 27001, ITIL 4 e COBIT 2019. Busco consolidar uma carreira na
+              arquitetura de sistemas seguros e confiáveis, transformando conhecimento teórico em soluções corporativas resilientes.</p>
+            <div class="chips">
+              <span class="chip">OWASP Top 10</span><span class="chip">MITRE ATT&amp;CK</span><span class="chip">ISO/IEC 27001</span>
+              <span class="chip">ITIL 4</span><span class="chip">COBIT 2019</span><span class="chip">LGPD</span>
+              <span class="chip">OSPF · BGP</span><span class="chip">Git</span>
+            </div>
+          </div>
+          <aside class="glass facts reveal">
+            <div class="fact"><span>Nome</span><span>João Gabriel Assunção de Labio</span></div>
+            <div class="fact"><span>RA</span><span>22308940</span></div>
+            <div class="fact"><span>Curso</span><span>Bacharelado em Ciência da Computação</span></div>
+            <div class="fact"><span>Semestre</span><span>8º</span></div>
+            <div class="fact"><span>Instituição</span><span>UniCEUB</span></div>
+            <div class="fact"><span>Disciplina</span><span>Bootcamp I</span></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= INTERESSES ================= -->
+    <section id="interesses">
+      <div class="container">
+        <span class="section-tag reveal">02 · Interesses e propósito</span>
+        <h2 class="reveal">Áreas de interesse</h2>
+        <p class="lead reveal">O Study Hub centraliza resumos analíticos, registros de laboratórios, códigos-fonte e relatórios técnicos,
+          transformando a produção acadêmica em artefatos rastreáveis e versionados — uma vitrine viva de competências aplicadas.</p>
+        <div class="grid-2">
+          <article class="glass card reveal">
+            <div class="icon">🛡️</div>
+            <h3>Segurança Cibernética &amp; SOC</h3>
+            <p>Threat hunting, reconhecimento de rede, análise de vulnerabilidades, monitoramento e resposta a incidentes defensivos e ofensivos.</p>
+          </article>
+          <article class="glass card reveal">
+            <div class="icon">🌐</div>
+            <h3>Infraestrutura &amp; Redes</h3>
+            <p>Projeto e simulação de topologias corporativas seguras, segmentação de tráfego, OSPF, BGP, firewalls e ACLs.</p>
+          </article>
+          <article class="glass card reveal">
+            <div class="icon">📜</div>
+            <h3>Governança de TI &amp; Conformidade</h3>
+            <p>Alinhamento estratégico com ISO/IEC 27001, LGPD e frameworks de gestão de serviços e riscos de segurança da informação.</p>
+          </article>
+          <article class="glass card reveal">
+            <div class="icon">⚙️</div>
+            <h3>Engenharia &amp; Qualidade de Software</h3>
+            <p>Aplicações web e microsserviços com testes automatizados, verificação formal e arquiteturas escaláveis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ARQUITETURA ================= -->
+    <section id="arquitetura">
+      <div class="container">
+        <span class="section-tag reveal">03 · Arquitetura do repositório</span>
+        <h2 class="reveal">Estrutura de diretórios</h2>
+        <p class="lead reveal">Planejamento hierárquico com padronização <code>snake_case</code> e prefixos numéricos para garantir ordenação lógica
+          em qualquer sistema de arquivos. Clique nas pastas para abri-las no GitHub.</p>
+        <div class="arch-grid">
+          <div class="glass tree reveal">
+<pre><span class="f">Meu_Study_Hub_TI/</span>
+├── <a href="https://github.com/joaodelabio/Meu_Study_Hub_TI/tree/main/01_Apresentacao_e_Perfil" target="_blank" rel="noopener">01_Apresentacao_e_Perfil/</a>
+│   ├── README.md
+│   └── curriculo_e_contatos.md
+├── <a href="https://github.com/joaodelabio/Meu_Study_Hub_TI/tree/main/02_Disciplinas_Atuais" target="_blank" rel="noopener">02_Disciplinas_Atuais/</a>
+│   ├── Bootcamp_I/
+│   │   ├── Atividades_e_Entregas/
+│   │   └── Anotacoes_e_Resumos/
+│   ├── Projeto_Integrador_IV/
+│   │   ├── Atividades_e_Entregas/
+│   │   └── Anotacoes_e_Resumos/
+│   ├── Seguranca_Cibernetica/
+│   │   ├── Labs_e_Relatorios/
+│   │   └── Anotacoes_e_Resumos/
+│   ├── Teste_e_Qualidade_de_Software/
+│   │   ├── Planos_de_Teste_e_Praticas/
+│   │   └── Anotacoes_e_Resumos/
+│   └── Sistemas_em_Tempo_Real_e_Embarcados/
+│       ├── Projetos_Praticos/
+│       └── Anotacoes_e_Resumos/
+├── <a href="https://github.com/joaodelabio/Meu_Study_Hub_TI/tree/main/03_Projetos_e_Certificados" target="_blank" rel="noopener">03_Projetos_e_Certificados/</a>
+│   ├── Certificacoes/
+│   └── Projetos_Pessoais/
+├── assets/         <span style="opacity:.6"># CSS, JS e imagens do site</span>
+├── index.html      <span style="opacity:.6"># GitHub Pages</span>
+└── README.md</pre>
+          </div>
+          <div class="rules">
+            <article class="glass card reveal">
+              <div class="icon">🔢</div>
+              <h3>Estrutura de pastas</h3>
+              <p>Prefixos numéricos sequenciais e separadores <em>underline</em> preservam a ordenação estrita.</p>
+            </article>
+            <article class="glass card reveal">
+              <div class="icon">📝</div>
+              <h3>Documentação em Markdown</h3>
+              <p>Cada pasta principal contém um <code>README.md</code> explicando a finalidade dos artefatos armazenados.</p>
+            </article>
+            <article class="glass card reveal">
+              <div class="icon">📅</div>
+              <h3>Padronização de entregáveis</h3>
+              <p>Arquivos seguem a convenção <code>AAAA-MM-DD_titulo_descritivo.ext</code>.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MATRIZ ================= -->
+    <section id="matriz">
+      <div class="container">
+        <span class="section-tag reveal">04 · A matriz do Study Hub</span>
+        <h2 class="reveal">Disciplinas do semestre</h2>
+        <p class="lead reveal">Mapeamento das disciplinas ativas, o tipo de material planejado e a justificativa estratégica dentro do portfólio.</p>
+        <div class="glass table-wrap reveal">
+          <table>
+            <thead>
+              <tr><th>Semestre / Módulo</th><th>Disciplina</th><th>Tipo de material</th><th>Justificativa</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="pill">1º Módulo</span></td><td><strong>Bootcamp I</strong></td>
+                <td>Planejamento da arquitetura do Study Hub e entregas do projeto.</td>
+                <td>Define a base de organização profissional para todo o curso.</td></tr>
+              <tr><td><span class="pill">8º Semestre</span></td><td><strong>Projeto Integrador IV</strong></td>
+                <td>Relatórios práticos, atas de alinhamento e documentação arquitetural.</td>
+                <td>Consolida competências multidisciplinares em uma entrega orientada a problemas reais do mercado.</td></tr>
+              <tr><td><span class="pill">8º Semestre</span></td><td><strong>Segurança Cibernética</strong></td>
+                <td>Resumos de frameworks e relatórios de labs de vulnerabilidades (OWASP / MITRE).</td>
+                <td>Sistematiza técnicas de reconhecimento, mitigação de ameaças e análise de incidentes.</td></tr>
+              <tr><td><span class="pill">8º Semestre</span></td><td><strong>Teste e Qualidade de Software</strong></td>
+                <td>Casos de teste, planos de QA e relatórios de validação automatizada.</td>
+                <td>Garante rastreabilidade e robustez por meio de ciclos rigorosos de testes.</td></tr>
+              <tr><td><span class="pill">8º Semestre</span></td><td><strong>Sistemas em Tempo Real e Embarcados</strong></td>
+                <td>Resumos de escalonamento e relatórios de simulação de hardware/firmware.</td>
+                <td>Desenvolve domínio sobre restrições temporais determinísticas e programação de baixo nível.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTATO ================= -->
+    <section id="contato">
+      <div class="container">
+        <span class="section-tag reveal">05 · Conecte-se</span>
+        <h2 class="reveal">Vamos conversar?</h2>
+        <div class="links-grid">
+          <a class="glass card link-card reveal" id="card-github" href="https://github.com/joaodelabio" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/></svg>
+            <h3>GitHub</h3><small>github.com/joaodelabio</small>
+          </a>
+          <a class="glass card link-card reveal" id="card-linkedin" href="https://www.linkedin.com/in/joaodelabio" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zm1.8 13.1H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+            <h3>LinkedIn</h3><small>linkedin.com/in/joaodelabio</small>
+          </a>
+          <a class="glass card link-card reveal" id="card-repo" href="https://github.com/joaodelabio/Meu_Study_Hub_TI" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M3 3h7l2 2h9v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm0 4v12h18V7H3z"/></svg>
+            <h3>Repositório</h3><small>github.com/joaodelabio/Meu_Study_Hub_TI</small>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year">2026</span> João Gabriel Assunção de Labio · Bootcamp I · UniCEUB<br>
+      Publicado com GitHub Pages · Versionado com Git
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
